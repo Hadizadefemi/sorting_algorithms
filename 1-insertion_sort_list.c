@@ -1,4 +1,5 @@
 #include "sort.h"
+
 /**
  * first_swap - look for a minor value of a node inside the list where
  * the current node is bigger, in order to change positions
@@ -36,6 +37,7 @@ listint_t *first_swap(listint_t **list)
 	}
 	return (cursor);
 }
+
 /**
  * backward - it a loop from current node where we find the swap to head
  * in order to find if there is a node with a minor value that the current
@@ -82,6 +84,7 @@ int backward(listint_t **elem, listint_t **list)
 	*elem = cursor;
 	return (a);
 }
+
 /**
  * insertion_sort_list - sorts a doubly linked list of integers in ascending
  * order using the Insertion sort algorithm

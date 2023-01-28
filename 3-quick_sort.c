@@ -17,6 +17,7 @@ void swap(int *array, int first, int last, size_t size)
 	array[first] = aux;
 	print_array(array, size);
 }
+
 /**
  * part - fin the partition position or pivot of the array
  * @array: array to sort
